@@ -3,7 +3,8 @@ import React from 'react';
 const NoMatch = () => {
     return (
         <div>
-            <h1>No Match -- 404 Error!!!</h1>
+            <h4>Not Match</h4>
+            <p>404</p>
         </div>
     );
 };
