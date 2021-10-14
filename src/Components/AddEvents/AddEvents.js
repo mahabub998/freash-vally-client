@@ -1,6 +1,7 @@
 import axios from 'axios';
 import React, { useState } from 'react';
 import { useForm } from "react-hook-form";
+import './AddEvents.css';
 
 const AddEvents = () => {
  
@@ -47,7 +48,7 @@ const AddEvents = () => {
   }
 
   return (
-    <div>
+    <div className="text-center mt-5 Event_area">
       <h1>Add Youre awsome here</h1>
       <form onSubmit={handleSubmit(onSubmit)}>
     
@@ -60,7 +61,7 @@ const AddEvents = () => {
       <input type="file" onChange={handelImgUpload} />
       <br></br>
       <br></br>
-      <input type="submit" />
+      <input type="submit" className="btn btn-primary"/>
       </form>
     </div>
   );

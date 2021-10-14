@@ -6,7 +6,6 @@ import {
   Route,
 } from "react-router-dom";
 import NoMatch from './Components/NoMatch/NoMatch';
-
 import Home from './Components/Home/Home';
 import Header from './Components/Header/Header';
 import AddEvents from './Components/AddEvents/AddEvents';
@@ -14,6 +13,8 @@ import CheckOut from './Components/CheckOut/CheckOut';
 import Login from './Components/Login/Login';
 import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
 import ManageProducts from './Components/ManageProducts/ManageProducts';
+import Navbar from './Components/Navbar/Navbar';
+import Footer from './Components/Footer/Footer';
 
 
 
@@ -25,9 +26,10 @@ function App() {
  const  [loggedInUser,setLoggedInUser] = useState({});
   return (
 <UserContext.Provider value ={ [loggedInUser,setLoggedInUser]}>
-  <p>Name : {loggedInUser.email}</p>
+ 
     <Router>
-      <Header />
+    
+      <Navbar/>
       <Switch>
         <Route path="/Home"> 
           <Home />
@@ -51,6 +53,7 @@ function App() {
           <NoMatch />
         </Route>
       </Switch>
+      <Footer />
     </Router>
     </UserContext.Provider>
    
