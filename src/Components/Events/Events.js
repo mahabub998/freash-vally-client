@@ -23,7 +23,7 @@ const Events = ({ event }) => {
             </div>
             <div className="col-md-6">
               <Link to={`/CheckOut/` + event._id}>
-                <Button variant="primary">Buy Now</Button>
+                <Button variant="primary">Details</Button>
               </Link>
             </div>
           </div>

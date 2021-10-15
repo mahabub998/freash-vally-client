@@ -40,15 +40,19 @@ function App() {
         <Route path="/addEvents">
           <AddEvents></AddEvents>
         </Route>
-        <PrivateRoute path="/CheckOut/:productId">
+        {/*<PrivateRoute path="/CheckOut/:productId">
          <CheckOut></CheckOut>
-        </PrivateRoute>
+  </PrivateRoute>*/}
+  <Route path="/CheckOut/:productId">
+         <CheckOut></CheckOut>
+        </Route>
         <Route path="/login">
       <Login />
         </Route>
-        <PrivateRoute path="/ManageProducts">
+      
+  <Route path="/ManageProducts">
          <ManageProducts></ManageProducts>
-        </PrivateRoute>
+        </Route>
         <Route path="*">
           <NoMatch />
         </Route>
