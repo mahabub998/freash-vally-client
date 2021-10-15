@@ -19,7 +19,7 @@ const CheckOut = ({ event }) => {
 
   const handelClick = () => {
     axios
-      .post("http://localhost:5000/addOrder")
+      .post("https://polar-savannah-87812.herokuapp.com/addOrder")
       .then((response) => {
         response.data &&
           swal(

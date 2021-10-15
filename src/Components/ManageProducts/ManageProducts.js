@@ -5,7 +5,7 @@ const ManageProducts = () => {
     const [product, setProduct] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5000/productMange')
+        fetch('https://polar-savannah-87812.herokuapp.com/productMange')
             .then(response => response.json())
             .then(data => setProduct(data))
     }, [])
@@ -13,7 +13,7 @@ const ManageProducts = () => {
     const deleteProduct = id => {
         console.log('delete', id)
     
-        fetch(`http://localhost:5000/deleteProduct/${id}`, {
+        fetch(`https://polar-savannah-87812.herokuapp.com/deleteProduct/${id}`, {
             method: 'DELETE',
             headers: {
                 'accept' : 'application/json', 

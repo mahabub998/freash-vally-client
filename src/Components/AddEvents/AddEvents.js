@@ -16,7 +16,7 @@ const AddEvents = () => {
       imageUrl: imageUrl
      
     };
-    const url = `http://localhost:5000/addEvent`;
+    const url = `https://polar-savannah-87812.herokuapp.com/addEvent`;
     console.log(eventData)
 
     fetch(url, {
