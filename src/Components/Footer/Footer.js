@@ -20,10 +20,10 @@ export default function Footer() {
 
 <div class="social-media">
 <ul className="d-flex justify-content-center">
-  <li><a href="http://www.nextbootstrap.com/" title=""><i class=" fa facebook"></i></a></li>
-  <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-twitter"></i></a></li>
-  <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-google-plus"></i></a></li>
-  <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-linkedin"></i></a></li>
+  <li><a href="https://www.facebook.com/mahbubalam.shohag.92" title=""><i class="fab fa-facebook"></i></a></li>
+  <li><a href="" title=""><i class="fa fa-twitter "></i></a></li>
+  <li><a href="" title=""><i class="fa fa-google-plus"></i></a></li>
+  <li><a href="https://www.linkedin.com/in/mahbub-alams/" title=""><i class="fab fa-linkedin"></i></a></li>
 </ul>
 </div>
 </div>
@@ -58,7 +58,7 @@ export default function Footer() {
 <div class="footer-info-single">
 <h2 class="title">Security & privacy</h2>
 <ul class="list-unstyled">
-<li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> Terms Of Use</a></li>
+<li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right "></i> Terms Of Use</a></li>
 <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> Privacy Policy</a></li>
 <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> Return / Refund Policy</a></li>
 <li><a href="http://www.nextbootstrap.com/" title=""><i class="fa fa-angle-double-right"></i> Store Locations</a></li>
