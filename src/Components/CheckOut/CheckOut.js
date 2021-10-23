@@ -12,7 +12,7 @@ const CheckOut = ({ event }) => {
   const { productId } = useParams();
 
   useEffect(() => {
-    fetch("http://localhost:5000/event/" + productId)
+    fetch("https://polar-savannah-87812.herokuapp.com/event/" + productId)
       .then((res) => res.json())
       .then((data) => setProducts(data));
   }, [productId]);
@@ -32,8 +32,8 @@ const CheckOut = ({ event }) => {
   };
 
   return (
-    <section className="card_position">
-      <Card style={{ width: "25rem", height: "5rem" }}>
+    <section className="card_position ">
+      <Card style={{ width: "25rem", height: "5rem", }}>
         <Card.Img
           style={{ width: "100px", height: "100px" }}
           variant="top"
@@ -43,6 +43,7 @@ const CheckOut = ({ event }) => {
           <Card.Title>{products.name}</Card.Title>
           <p>price : {products.price}</p>
           <Card.Text>
+          <p>{products.description}</p>
             Some quick example text to build on the card title and make up the
             bulk of the card's content.
           </Card.Text>

@@ -13,6 +13,8 @@ const AddEvents = () => {
     const eventData = {
       name: data.name,
       price:data.price,
+      category:data.category,
+      description:data.description,
       imageUrl: imageUrl
      
     };
@@ -56,6 +58,12 @@ const AddEvents = () => {
       <br></br>
       <br></br>
       <input placeholder="price" {...register("price", { required: true })} />
+      <br></br>
+      <br></br>
+      <input placeholder="category" {...register("category", { required: true })} />
+      <br></br>
+      <br></br>
+      <input placeholder="description"  {...register("description", { required: true })} />
       <br></br>
       <br></br>
       <input type="file" onChange={handelImgUpload} />

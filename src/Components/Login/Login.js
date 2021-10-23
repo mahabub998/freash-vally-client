@@ -50,7 +50,7 @@ const Login = () => {
       <div className="justify-content-center row mb-3">
         <div style={style} className="col-md-3 text-center">
           <img width="30%" className="img-fluid" src={google} alt="" />
-          <button className="btn" onClick={handelGoogleSingIn}>
+          <button className="btn btn-success" onClick={handelGoogleSingIn}>
             Continue With Google
           </button>
         </div>

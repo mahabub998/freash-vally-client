@@ -1,0 +1,36 @@
+.sidebar{
+    width: 100%;
+    margin-top: 82px;
+   
+}
+.sideBar_color{
+    background-color: #157347;
+}
+a{
+    text-decoration: none;
+
+}
+ul{
+    padding: 0px;
+    margin: 0px;
+}
+.category{
+    width: 100%;
+    list-style: none;
+    padding:5px 0px;
+    margin: 10px;
+    border: 1px solid white;
+    
+}
+.category a{
+    width: 100%;
+    color: white;
+
+}
+.categoryBody{
+    padding-right: 30px;
+}
+.option2{
+    border-left: 1px solid black;
+    height: 100%;
+}
