@@ -10,13 +10,12 @@ function Laundry() {
       .then((response) => response.json())
       .then((data) => setFruits(data));
   }, []);
-  // console.log(fruit)
+  // console.log(fruit)0299999999999999999999999999+*9*
   const filteredData = fruit.filter((data) => data.category === "Laundry");
   console.log(filteredData);
 
   return (
     <div className="">
-      
       <div className="">
         <div className="row ms-5 justify-content-around">
           {filteredData.map((fruit) => (
